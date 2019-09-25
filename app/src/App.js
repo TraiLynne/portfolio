@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import {
-  ProjectView
+  ProjectView,
+  SkillsView
 } from './views';
 import {
   Nav
@@ -12,6 +13,7 @@ function App() {
     <div>
       <Nav/>
       <ProjectView/>
+      <SkillsView/>
     </div>
   );
 }

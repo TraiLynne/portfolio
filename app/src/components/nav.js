@@ -37,13 +37,13 @@ export default class Navigation extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink>Projects</NavLink>
+                <NavLink href='#project-container'>Projects</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>Skills</NavLink>
+                <NavLink href='#skills-container'>Skills</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>Contact</NavLink>
+                <NavLink href='#contact-container'>Contact</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href='https://www.trailynne.org/blog'>Blog</NavLink>
