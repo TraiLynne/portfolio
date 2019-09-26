@@ -9,6 +9,10 @@ h1, h2, p {
     text-align: center;
 }
 
+strong {
+    color: #C13524;
+}
+
 h1 {
     padding-top: 2%;
     font-weight: bold;

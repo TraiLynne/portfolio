@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import {
   ProjectView,
-  SkillsView
+  SkillsView,
+  ContactView
 } from './views';
 import {
   Nav
@@ -14,6 +15,7 @@ function App() {
       <Nav/>
       <ProjectView/>
       <SkillsView/>
+      <ContactView/>
     </div>
   );
 }
