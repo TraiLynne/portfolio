@@ -4,7 +4,6 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption,
   Button
 } from 'reactstrap';
 
@@ -82,16 +81,16 @@ class ProjectCarousel extends Component {
         {projects[activeIndex].blog ? 
           (
             <div className='button-container'>
-              <a href={projects[activeIndex].link} target='_blank'>
+              <a href={projects[activeIndex].link} target='_blank' rel="noopener noreferrer">
                 <Button>Explore Project</Button>
               </a>
-              <a href={projects[activeIndex].blog} target='_blank'>
+              <a href={projects[activeIndex].blog} target='_blank' rel="noopener noreferrer">
                   <Button>Read Blog Post</Button>
               </a>
             </div>
           ) : (
             <div className='button-container'>
-              <a href={projects[activeIndex].link} target='_blank'>
+              <a href={projects[activeIndex].link} target='_blank' rel="noopener noreferrer">
                 <Button>Explore Project</Button>
               </a>
             </div>
