@@ -1,0 +1,17 @@
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 1% 0;
+}
+
+.icons a, p {
+    color: #5D6262;
+    font-size: 20px;
+}
+
+@media (min-width: 768px){
+    .icons {
+        display: none;
+    }
+}

@@ -4,6 +4,7 @@ import FrontEndSkills from './skills-front';
 import BackEndSkills from './skills-back';
 import TechSkills from './skills-tech';
 import HumanSkills from './skills-soft';
+import Footer from './footer';
 
 export {
     Nav,
@@ -11,5 +12,6 @@ export {
     FrontEndSkills,
     BackEndSkills,
     TechSkills,
-    HumanSkills
+    HumanSkills,
+    Footer
 }

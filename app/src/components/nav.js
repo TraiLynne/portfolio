@@ -13,6 +13,7 @@ import {
 } from 'reactstrap';
 
 import logo from '../assets/img/logo.PNG'
+import '../styles/nav.css';
 
 export default class Navigation extends Component {
   constructor(props) {
@@ -35,7 +36,7 @@ export default class Navigation extends Component {
           <NavbarBrand href="https://www.trailynne.org"><img src={logo} style={{height: 30}} alt='Trai Lynne Logo'/> Trai Lynne</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ml-auto main" navbar>
               <NavItem>
                 <NavLink href='#project-container'>Projects</NavLink>
               </NavItem>
@@ -49,7 +50,7 @@ export default class Navigation extends Component {
                 <NavLink href='https://www.trailynne.org/blog'>Blog</NavLink>
               </NavItem>
             </Nav>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ml-auto social" navbar>
               <NavItem>
                 <NavLink href='mailto:trailynne@gmail.com' target='_blank'><i class="fas fa-envelope-open-text"></i></NavLink>
               </NavItem>

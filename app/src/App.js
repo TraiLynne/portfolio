@@ -6,7 +6,8 @@ import {
   ContactView
 } from './views';
 import {
-  Nav
+  Nav,
+  Footer
 } from './components';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <ProjectView/>
       <SkillsView/>
       <ContactView/>
+      <Footer/>
     </div>
   );
 }

@@ -2,7 +2,7 @@
     background-color: #5D6262;
     width: 100%;
     max-height: 100vh;
-    padding: 2% 0;
+    padding: 5% 0;
 }
 
 .contact-details {
@@ -23,3 +23,6 @@
     color: #C13524;
 }
 
+.contact-details a:hover {
+    color: #C13524;
+}
