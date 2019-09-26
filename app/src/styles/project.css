@@ -5,8 +5,8 @@
 
 h1, h2, p {
     font-family: 'Hi Melody', cursive;
-    color: #C7C5D1;
     text-align: center;
+    color: #C7C5D1;
 }
 
 strong {
@@ -16,6 +16,7 @@ strong {
 h1 {
     padding-top: 2%;
     font-weight: bold;
+    color: #C7C5D1;
 }
 
 .carousel-indicators li {

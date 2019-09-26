@@ -1,7 +1,19 @@
 #skills-container {
     background-color: #C7C5D1;
     width: 100%;
-    padding-bottom: 2%;
+}
+
+#skills-container h1 {
+    font-family: 'Hi Melody', cursive;
+    color: #5D6262;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2%;
+    margin-bottom: 0;
+}
+
+#skills {
+    width: 100%;
 }
 
 .card-body img {
@@ -51,7 +63,7 @@
 
 
 @media (min-width: 768px){
-    #skills-container {
+    #skills {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;

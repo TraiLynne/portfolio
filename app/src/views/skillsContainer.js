@@ -10,10 +10,13 @@ import '../styles/skills.css';
 export default function SkillView(props){
     return (
         <div id='skills-container'>
-           <FrontEndSkills/>
-           <BackEndSkills/>
-           <TechSkills/>
-           <HumanSkills/>
+            <h1>Key Skills</h1>
+            <div id='skills'>
+                <FrontEndSkills/>
+                <BackEndSkills/>
+                <TechSkills/>
+                <HumanSkills/>
+            </div>
         </div>
     )
 }
