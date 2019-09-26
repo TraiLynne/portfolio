@@ -20,6 +20,7 @@ import icon from '../assets/img/human.png';
 import {
     humanSkills
 } from '../data';
+import '../styles/skills.css';
 
 class HumanSkills extends Component {
     constructor(props) {
@@ -39,7 +40,6 @@ class HumanSkills extends Component {
 
     render(){
         return (
-            <div>
               <Card>
                 <CardBody>
                     <img src={icon} alt='Soft Skills Icon'/>
@@ -60,11 +60,10 @@ class HumanSkills extends Component {
                     </ListGroup>
                     </ModalBody>
                     <ModalFooter>
-                        <Button onClick={this.toggle}>Cancel</Button>
+                        <Button onClick={this.toggle}>Close</Button>
                     </ModalFooter>
                 </Modal>
               </Card>
-            </div>
           );
     }
 };

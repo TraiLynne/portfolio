@@ -1,0 +1,49 @@
+#project-container {
+    background-color: #5D6262;
+    width: 100%;
+}
+
+h1, h2, p {
+    font-family: 'Hi Melody', cursive;
+    color: #C7C5D1;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 2%;
+    font-weight: bold;
+}
+
+.carousel-indicators li {
+    background-color: #C13542
+}
+
+.carousel-item img {
+    display: block;
+    max-width: 80%;
+    margin: 2% auto;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+@media (min-width: 768px){
+    .button-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        padding-bottom: 5%;
+        width: 50%;
+        margin: 0 auto;
+    }
+}

@@ -12,6 +12,8 @@ import {
     projects
 } from '../data/';
 
+import '../styles/project.css';
+
 class ProjectCarousel extends Component {
   constructor(props) {
     super(props);
@@ -59,34 +61,41 @@ class ProjectCarousel extends Component {
           key={p.name}
         >
           <img src={p.img} alt={p.name} />
-          <CarouselCaption captionText={p.contributions.join(', ')} captionHeader={p.name} />
         </CarouselItem>
       );
     });
 
     return (
-        <>
-      <Carousel
-        activeIndex={activeIndex}
-        next={this.next}
-        previous={this.previous}
-      >
-        <CarouselIndicators items={projects} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
-        {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
-      </Carousel>
-      {projects[activeIndex].blog ? 
-        (
+      <>
+        <Carousel
+          activeIndex={activeIndex}
+          next={this.next}
+          previous={this.previous}
+        >
+          <CarouselIndicators items={projects} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
+          {slides}
+          <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
+          <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+        </Carousel>
+        <h2>{projects[activeIndex].name}</h2>
+        <p>{projects[activeIndex].contributions.join(', ')}</p>
+        {projects[activeIndex].blog ? 
+          (
             <div className='button-container'>
-                <Button>View Project</Button>
-                <Button>View Blog Post</Button>
+              <a href={projects[activeIndex].link} target='_blank'>
+                <Button>Explore Project</Button>
+              </a>
+              <a href={projects[activeIndex].blog} target='_blank'>
+                  <Button>Read Blog Post</Button>
+              </a>
             </div>
-        ) : (
+          ) : (
             <div className='button-container'>
-                <Button>View Project</Button>
+              <a href={projects[activeIndex].link} target='_blank'>
+                <Button>Explore Project</Button>
+              </a>
             </div>
-        )}
+          )}
       </>
     );
   }

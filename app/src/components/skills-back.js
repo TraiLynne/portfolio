@@ -23,6 +23,8 @@ import {
     backEndSkills
 } from '../data';
 
+import '../styles/skills.css';
+
 class BackEndSkills extends Component {
     constructor(props) {
         super(props);
@@ -95,7 +97,7 @@ class BackEndSkills extends Component {
                     </ListGroup>
                     </ModalBody>
                     <ModalFooter>
-                        <Button onClick={this.toggle}>Cancel</Button>
+                        <Button onClick={this.toggle}>Close</Button>
                     </ModalFooter>
                 </Modal>
             </Card>

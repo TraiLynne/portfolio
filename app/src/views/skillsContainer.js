@@ -5,6 +5,7 @@ import {
     TechSkills,
     HumanSkills
 } from '../components';
+import '../styles/skills.css';
 
 export default function SkillView(props){
     return (

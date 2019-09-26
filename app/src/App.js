@@ -10,7 +10,7 @@ import {
 
 function App() {
   return (
-    <div>
+    <div id='main-container'>
       <Nav/>
       <ProjectView/>
       <SkillsView/>

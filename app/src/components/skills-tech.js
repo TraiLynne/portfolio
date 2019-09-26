@@ -22,6 +22,7 @@ import icon from '../assets/img/tech.png';
 import {
     techSkills
 } from '../data';
+import '../styles/skills.css';
 
 class TechSkills extends Component {
     constructor(props) {
@@ -41,7 +42,6 @@ class TechSkills extends Component {
 
     render(){
         return (
-            <div>
               <Card>
                 <CardBody>
                     <img src={icon} alt='Additional Tech Skills Icon'/>
@@ -95,11 +95,10 @@ class TechSkills extends Component {
                     </ListGroup>
                     </ModalBody>
                     <ModalFooter>
-                        <Button onClick={this.toggle}>Cancel</Button>
+                        <Button onClick={this.toggle}>Close</Button>
                     </ModalFooter>
                 </Modal>
               </Card>
-            </div>
           );
     }
 };
