@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.df6f5567.chunk.css",
+    "main.js": "/portfolio/static/js/main.132ef418.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.132ef418.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.21eabe76.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.21eabe76.js.map",
+    "static/css/2.0624914a.chunk.css": "/portfolio/static/css/2.0624914a.chunk.css",
+    "static/js/2.fdb94426.chunk.js": "/portfolio/static/js/2.fdb94426.chunk.js",
+    "static/js/2.fdb94426.chunk.js.map": "/portfolio/static/js/2.fdb94426.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.9a64bdf78d0d594902acfc4289fd6066.js": "/portfolio/precache-manifest.9a64bdf78d0d594902acfc4289fd6066.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/portfolio/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.df6f5567.chunk.css.map": "/portfolio/static/css/main.df6f5567.chunk.css.map",
+    "static/media/UIProject.png": "/portfolio/static/media/UIProject.f45621d8.png",
+    "static/media/backend.png": "/portfolio/static/media/backend.32238388.png",
+    "static/media/course-correct.png": "/portfolio/static/media/course-correct.f7dcc9a0.png",
+    "static/media/frontend.png": "/portfolio/static/media/frontend.1524842b.png",
+    "static/media/human.png": "/portfolio/static/media/human.612250cf.png",
+    "static/media/jubilee.png": "/portfolio/static/media/jubilee.d03c0b9c.png",
+    "static/media/logo.PNG": "/portfolio/static/media/logo.d38230cf.PNG",
+    "static/media/symposium.png": "/portfolio/static/media/symposium.17a67204.png",
+    "static/media/tech.png": "/portfolio/static/media/tech.6a06c669.png"
+  }
+}
