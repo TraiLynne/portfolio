@@ -46,7 +46,7 @@ class TechSkills extends Component {
                 <CardBody>
                     <img src={icon} alt='Additional Tech Skills Icon'/>
                   <CardTitle>Tech Utility Belt</CardTitle>
-                  <CardText>Creating the look, feel and design of the site.</CardText>
+                  <CardText>An arsenal of tools used to get the job done</CardText>
                   <Button onClick={this.toggle}>View More</Button>
                 </CardBody>
 
