@@ -49,6 +49,9 @@ export default class Navigation extends Component {
               <NavItem>
                 <NavLink href='https://www.trailynne.org/blog'>Blog</NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href='../assets/downloads/TraiLynneCompton_Resume.pdf' download>Resume</NavLink>
+              </NavItem>
             </Nav>
             <Nav className="ml-auto social" navbar>
               <NavItem>
