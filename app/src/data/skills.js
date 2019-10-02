@@ -108,9 +108,8 @@ export const humanSkills = [
     "Adaptability",
     "Tenacity & Resilience",
     "Observation",
-    "Detail-Oriented",
     "Goal-Driven",
-    "Punctuality & Reliability",
+    "Punctuality",
     "Empathy",
     "Organization"
 ]
