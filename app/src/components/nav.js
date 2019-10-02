@@ -12,8 +12,9 @@ import {
   NavLink
 } from 'reactstrap';
 
-import logo from '../assets/img/logo.PNG'
+import logo from '../assets/img/logo.PNG';
 import '../styles/nav.css';
+import resume from '../assets/downloads/TraiLynneCompton_Resume.pdf';
 
 export default class Navigation extends Component {
   constructor(props) {
@@ -50,7 +51,7 @@ export default class Navigation extends Component {
                 <NavLink href='https://www.trailynne.org/blog'>Blog</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href='../assets/downloads/TraiLynneCompton_Resume.pdf' download>Resume</NavLink>
+                <NavLink href={resume} download>Resume</NavLink>
               </NavItem>
             </Nav>
             <Nav className="ml-auto social" navbar>
