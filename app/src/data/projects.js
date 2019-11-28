@@ -70,7 +70,7 @@ export const projects = [
         name: 'Good Idea!',
         link: 'https://trailynne.org/User-Interface/',
         blog: 'https://trailynne.org/blog/project/2019/11/27/good_idea_display.html',
-        img: UIProject,
+        img: GoodIdea,
         contributions: [
             'HTML',
             'CSS',
