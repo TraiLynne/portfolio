@@ -2,7 +2,8 @@ import {
     Symposium,
     CourseCorrect,
     UIProject,
-    Jubilee
+    Jubilee,
+    GoodIdea
 } from '../assets/img/portfolio';
 
 // Example of Project Data Structure
@@ -63,6 +64,20 @@ export const projects = [
         contributions: [
             'HTML',
             'CSS'
+        ]
+    },
+    {
+        name: 'Good Idea!',
+        link: 'https://trailynne.org/User-Interface/',
+        blog: 'https://trailynne.org/blog/project/2019/11/27/good_idea_display.html',
+        img: UIProject,
+        contributions: [
+            'HTML',
+            'CSS',
+            'JavaScript',
+            'Box Model',
+            'Display Properties',
+            'CSS Reset'
         ]
     },
 ];
