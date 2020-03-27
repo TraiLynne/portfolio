@@ -62,15 +62,19 @@ export const techSkills = [
         value: 75
     },
     {
-        name: 'RDBMS',
+        name: 'Relational Database Management Systems (RDBMS)',
         value: 75
     },
     {
-        name: 'Object Oriented Programming',
+        name: 'Search Engine Optimization (SEO)',
+        value: 75
+    },,
+    {
+        name: 'Object Oriented Programming (OOP)',
         value: 50
     },
     {
-        name: 'UI/UX',
+        name: 'User Interface & Experience (UI/UX)',
         value: 50
     },
     {
